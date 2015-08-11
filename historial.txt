@@ -1,0 +1,177 @@
+NOMBRE DEL PROGRAMA :  sample1.py
+#Mario Alberto Gutierrez Corral
+#invertir una cadena
+
+#definicion de funciones
+
+def CadC(C):
+    n=len(C)
+    if (n == 1):
+        return C
+    else:
+        return C[-1]+CadC(C[:-1])
+    
+#P.P
+C = raw_input("Cual es el texto: ")
+print CadC (C)
+
+
+METRICAS BASICAs
+n1= 18      N1= 38      n2= 5      N2= 16
+
+METRICAS DERIVADAS
+longitud del programa:  54
+vocabulario del programa23
+volumen del programa244.272345627
+dificultad del programa27.0
+nivel del programa0.037037037037
+esfuerzo de implementacion6595.35333193
+tiempo de implementacion366.408518441
+numero de bugs liberados0.117229646811
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+NOMBRE DEL PROGRAMA :  sample2.py
+#mario Alberto Gutierrez Corral
+#Lista de numeros positivos que son la suma de ese numero
+
+#funciones
+def Suma(n,i):
+    if(i>n-i):
+        return 99
+    else:
+        print n ," = ",(n-i)," + ", i
+        return Suma(n,i+1)
+#programa principal
+x=int(raw_input("dame un numero"))
+Suma(x,1)
+
+
+METRICAS BASICAs
+n1= 19      N1= 41      n2= 7      N2= 20
+
+METRICAS DERIVADAS
+longitud del programa:  61
+vocabulario del programa26
+volumen del programa286.726822807
+dificultad del programa19.0
+nivel del programa0.0526315789474
+esfuerzo de implementacion5447.80963333
+tiempo de implementacion302.65609074
+numero de bugs liberados0.103203246872
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+NOMBRE DEL PROGRAMA :  sample3.py
+#Mario Alberto Gutierrez Corral
+#suma de numeros de forma recusiva de 1 en 1
+
+#definicion de funciones
+
+def suma_rec(n):
+    if(n==0):
+        return 0
+    else:
+        return n+ suma_rec(n-1)
+
+
+
+
+#programa principal
+
+x = int(raw_input("Dame el numero hasta el que quieres que llegue la suma: "))
+print "la suma  es",suma_rec(x)
+
+
+METRICAS BASICAs
+n1= 19      N1= 41      n2= 6      N2= 13
+
+METRICAS DERIVADAS
+longitud del programa:  54
+vocabulario del programa25
+volumen del programa250.768234248
+dificultad del programa19.0
+nivel del programa0.0526315789474
+esfuerzo de implementacion4764.59645071
+tiempo de implementacion264.699802817
+numero de bugs liberados0.094383517907
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+NOMBRE DEL PROGRAMA :  sample4.py
+#Mario Alberto Gutierrez Corral
+#suma de numeros de forma recusiva de 2 en 2
+
+#definicion de funciones
+
+def suma_rec(n):
+    if(n<2):
+        return 0
+    else:
+        return n+ suma_rec(n-2)
+
+
+
+
+#programa principal
+
+x = int(raw_input("Dame el numero hasta el que quieres que llegue la suma: "))
+if(x%2 !=0):
+    x=x-1
+    
+print "la suma  es",suma_rec(x)
+
+
+METRICAS BASICAs
+n1= 21      N1= 47      n2= 7      N2= 19
+
+METRICAS DERIVADAS
+longitud del programa:  66
+vocabulario del programa28
+volumen del programa317.285424856
+dificultad del programa21.0
+nivel del programa0.047619047619
+esfuerzo de implementacion6662.99392197
+tiempo de implementacion370.166328998
+numero de bugs liberados0.118029805108
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+NOMBRE DEL PROGRAMA :  sample1.py
+#Mario Alberto Gutierrez Corral
+#invertir una cadena
+
+#definicion de funciones
+
+def CadC(C):
+    n=len(C)
+    if (n == 1):
+        return C
+    else:
+        return C[-1]+CadC(C[:-1])
+    
+#P.P
+C = raw_input("Cual es el texto: ")
+print CadC (C)
+
+
+METRICAS BASICAs
+n1= 18      N1= 38      n2= 5      N2= 16
+
+METRICAS DERIVADAS
+longitud del programa:  54
+vocabulario del programa23
+volumen del programa244.272345627
+dificultad del programa27.0
+nivel del programa0.037037037037
+esfuerzo de implementacion6595.35333193
+tiempo de implementacion366.408518441
+numero de bugs liberados0.117229646811
+------------------------------------------------------------------------------------------------------------------------
+
+
+
